@@ -1,0 +1,4 @@
+order_id,order_ts,customer_id,product_id,quantity,status,updated_at
+1,2026-10-01 10:00:00,5,P001,2,paid,2026-10-01 10:00:00
+2,2026-10-01 11:00:00,6,P002,oops,paid,2026-10-01 11:00:00
+3,yesterday,7,P003,1,paid,2026-10-01 12:00:00

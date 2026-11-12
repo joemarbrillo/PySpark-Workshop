@@ -1,0 +1,28 @@
+Source:
+https://www.pyinns.com/source-code/pyspark-for-data-engineering?fbclid=IwY2xjawVhRjdleHRuA2FlbQIxMABwZG9mBWJyaWQRMVMyeTJSa0dmbW9KUmFsRmRzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEfWjAMEs_1FVZhjr0RgD8XFpIHXN08sZbj9XCm-UWTQVVwBG45yBhmPxJDVZ4_aem_2vPI1pNgYWF-953fniJC7Q
+
+
+Ended at 15:15
+
+
+Add this as HADOOP Home:
+
+import os
+
+os.environ["HADOOP_HOME"] = "C:\\hadoop"
+os.environ["PATH"] += os.pathsep + "C:\\hadoop\\bin"
+
+Or, use glob library to read all csv without dependency with Hadoop library.
+import glob
+
+csv_files = glob.glob("data/raw/orders/*.csv")
+orders = spark.read.csv(csv_files, header=True, inferSchema=True)
+
+
+To run another ipynb in the current notebook,
+Install: nbformat
+> pip install nbformat
+
+To import an ipynb file in a py file, install:
+> pip install import-ipynb
+
