@@ -1,6 +1,9 @@
 Source:
 https://www.pyinns.com/source-code/pyspark-for-data-engineering?fbclid=IwY2xjawVhRjdleHRuA2FlbQIxMABwZG9mBWJyaWQRMVMyeTJSa0dmbW9KUmFsRmRzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEfWjAMEs_1FVZhjr0RgD8XFpIHXN08sZbj9XCm-UWTQVVwBG45yBhmPxJDVZ4_aem_2vPI1pNgYWF-953fniJC7Q
 
+Youtube:
+https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2FpcaAEba61sU%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgVicmlkETFiWEVMRWV2M3NlVlVqdGVlc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABH4ZHAOP7AwggOx0nHWyK6RbssDGsZrGabqe35hTGHUgN8w0Jckgi9ZlPDO2w_aem_Uua87Re7utnrgnWsnx27Xw&h=AUAHz8W3_UDD6kk2lgtyl_Pl-6bd5VhPD_Qum6RMuZBCwKdlNRpkW9HB_iHRYlWkRpVxfoKhhSf0It2poyxJbGDzO0-eWivpp13wKAtvV_pEB0PIl-lV-7U6KswnTzkS23aLxEBzbZ4sSQ&__tn__=R
+
 
 Ended at 15:15
 
@@ -25,4 +28,7 @@ Install: nbformat
 
 To import an ipynb file in a py file, install:
 > pip install import-ipynb
+
+Quality check:
+> python quality_py.py data/lake/orders; echo "exit code: $?"
 
