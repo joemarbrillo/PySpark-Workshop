@@ -31,4 +31,3 @@ To import an ipynb file in a py file, install:
 
 Quality check:
 > python quality_py.py data/lake/orders; echo "exit code: $?"
-
